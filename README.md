@@ -1,4 +1,4 @@
-![License CC-BY-SA] [badge-license]
+![License CC0] [badge-license]
 # Greek Street Names Directory 
 Λεξικό Οδών – Οικισμών
 Πλήρες λεξικό οδών και οικισμών ταξινομημένο ανά Διοικητική Περιφέρεια, Νομό, Δήμο και Ζώνη Τ.Κ. Το αρχείο περιέχει οδούς και οικισμούς εμπλουτισμένο με εγγραφές από τον Εκλογικό Κατάλογο του Υπουργείου Εσωτερικών.
@@ -15,4 +15,4 @@
 Τύπος αρχείου: .txt
 
 Άδεια χρήσης: CC-BY-SA
-[badge-license]: https://creativecommons.ellak.gr/wp-content/uploads/sites/19/2015/08/ccbysa.png
+[badge-license]: http://mirrors.creativecommons.org/presskit/icons/zero.large.png
