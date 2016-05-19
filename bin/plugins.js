@@ -3,7 +3,9 @@
 let path = require('path');
 
 module.exports = [{
-  packagePath: '../lib/api/server',
+  packagePath: '../lib/api/config',
 }, {
   packagePath: '../lib/api/database',
+}, {
+  packagePath: '../lib/api/server',
 }];
