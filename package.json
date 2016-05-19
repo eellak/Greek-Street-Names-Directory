@@ -17,8 +17,18 @@
   },
   "homepage": "https://github.com/stavros-zavrakas/Greek-Street-Names-Directory#readme",
   "dependencies": {
+    "architect": "0.1.11",
+    "express": "4.13.4",
+    "foreman": "1.4.1",
     "line-by-line": "0.1.4",
     "mongoose": "4.4.17",
     "throng": "4.0.0"
+  },
+  "devDependencies": {
+    "apidoc": "0.16.1",
+    "chai": "3.5.0",
+    "mocha": "2.4.5",
+    "proxyquire": "1.7.9",
+    "sinon": "1.17.4"
   }
 }
