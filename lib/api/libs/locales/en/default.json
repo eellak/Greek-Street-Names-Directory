@@ -1,0 +1,6 @@
+{
+  "ERR_000100": "Internal server error",
+  "ERR_000101": "Non-SSL request",
+  "ERR_000102": "Unsupported functionality",
+  "defaultTranslation": "Unrecognized error code"
+}

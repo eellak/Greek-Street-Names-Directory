@@ -7,6 +7,8 @@ module.exports = [{
 }, {
   packagePath: '../lib/api/database',
 }, {
+  packagePath: '../lib/api/libs',
+}, {
   packagePath: '../lib/api/routes',
 }, {
   packagePath: '../lib/api/server',
