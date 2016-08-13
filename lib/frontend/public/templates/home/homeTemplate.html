@@ -1,6 +1,7 @@
 <div class="name">
-  <% _.each(prefectures, function(prefecture, key, obj) { %>
-    <%=prefecture._id%>
+  <% var i;%>
+  <% for (i = 0; i < prefectures.length; i++) {%>
+    <%=prefectures[i]._id%>
     <br>
-  <%});%>
+  <%}%>
 </div>
