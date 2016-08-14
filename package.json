@@ -19,6 +19,7 @@
   "homepage": "https://github.com/stavros-zavrakas/Greek-Street-Names-Directory#readme",
   "dependencies": {
     "architect": "0.1.11",
+    "async": "2.0.1",
     "body-parser": "1.15.1",
     "errorhandler": "1.4.3",
     "express": "4.13.4",
