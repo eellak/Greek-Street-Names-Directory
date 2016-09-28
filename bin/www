@@ -1,0 +1,32 @@
+'use strict';
+
+let path = require('path');
+let cpus = require('os').cpus().length;
+let throng = require('throng');
+let architect = require('architect');
+let architect_config = architect.loadConfig(path.join(__dirname, 'plugins.js'));
+
+let concurrency = parseInt(process.env.CONCURRENCY, 10) || cpus;
+
+function start () {
+  process.on('SIGTERM', () => {
+    console.log('Cleanup here');
+    process.exit();
+  });
+
+  process.on('SIGINT', () => {
+    console.log('Cleanup here');
+    process.exit();
+  });
+
+  let arch;
+  arch = architect.createApp(architect_config, () => {
+    return console.log('greek-addresses: rest api started');
+  });
+
+  arch.on('error', (err) => {
+    return console.log(err);
+  });
+}
+
+throng({ workers: concurrency, lifetime: Infinity, grace: 10000 }, start);

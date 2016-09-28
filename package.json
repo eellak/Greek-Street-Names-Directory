@@ -1,0 +1,39 @@
+{
+  "name": "greek-street-names-directory",
+  "version": "1.0.0",
+  "description": "Λεξικό Οδών – Οικισμών Πλήρες λεξικό οδών και οικισμών ταξινομημένο ανά Διοικητική Περιφέρεια, Νομό, Δήμο και Ζώνη Τ.Κ. Το αρχείο περιέχει 83043 οδούς και οικισμούς της Ελληνικής επικράτειας, και έχει εμπλουτιστεί με εγγραφές από τον Εκλογικό Κατάλογο του Υπουργείου Εσωτερικών.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nf start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stavros-zavrakas/Greek-Street-Names-Directory.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stavros-zavrakas/Greek-Street-Names-Directory/issues"
+  },
+  "homepage": "https://github.com/stavros-zavrakas/Greek-Street-Names-Directory#readme",
+  "dependencies": {
+    "architect": "0.1.11",
+    "async": "2.0.1",
+    "body-parser": "1.15.1",
+    "errorhandler": "1.4.3",
+    "express": "4.13.4",
+    "foreman": "1.4.1",
+    "json-responses": "1.0.2",
+    "line-by-line": "0.1.4",
+    "mongoose": "4.4.17",
+    "throng": "4.0.0"
+  },
+  "devDependencies": {
+    "apidoc": "0.16.1",
+    "chai": "3.5.0",
+    "mocha": "2.4.5",
+    "proxyquire": "1.7.9",
+    "sinon": "1.17.4"
+  }
+}
